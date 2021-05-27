@@ -2,16 +2,9 @@
 
 package homework1.tasks;
 
-import java.util.Scanner;
-
 public class Task5MinAndMaxSwitchPlaces {
     public static void main(String [] args) {
-        int[] array = new int[7];
-        Scanner in = new Scanner(System.in);
-        System.out.println("Input numbers for array: ");
-        for (int i = 0; i < array.length; i++) {
-            array[i] = in.nextInt();;
-        }
+        int[] array = ArrayManager.init();
 
         int min = array[0];
         int minIndex = 0;
@@ -37,6 +30,5 @@ public class Task5MinAndMaxSwitchPlaces {
             System.out.print(array[i] + " ");
         }
 
-        in.close();
     }
 }

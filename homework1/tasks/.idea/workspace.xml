@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbce17c-69a1-44e6-8f66-6e0c6f92a2f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task6InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task1BinarySystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task1BinarySystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task2EvenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task2EvenNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task2EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task2EvenNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbers.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" afterDir="false" />
     </list>
