@@ -2,26 +2,20 @@
 
 package homework1.tasks;
 
-import java.util.Scanner;
+public class Task1BinarySystem {
+    public static void main(String[] args) {
+    int decimalNumber = 13;
+    int i = decimalNumber;
+    int div, mod;
+    String s = "";
 
-public class Task1BinarySystem { public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
-    System.out.print("Input a number: ");
-    int DecimalNumber = in.nextInt();
-
-    int i=DecimalNumber;
-    int Div;
-    int Mod;
-    String s="";
-
-    while (i>0)
-    {
-        Div=i/2;
-        Mod=i%2;
-        s=Mod+s;
-        i=i/2;
+    while (i > 0) {
+        div = i/2;
+        mod = i%2;
+        s = mod + s;
+        i = i/2;
     }
 
-    System.out.println(DecimalNumber + " in Binary System: " + s);
+    System.out.println(decimalNumber + " in Binary System: " + s);
 }
 }

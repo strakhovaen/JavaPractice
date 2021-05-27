@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbce17c-69a1-44e6-8f66-6e0c6f92a2f0" name="Default Changelist" comment="" />
+    <list default="true" id="3fbce17c-69a1-44e6-8f66-6e0c6f92a2f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task2EvenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task2EvenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +27,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1szIjVOP0BfJYHvsiLrtrODq7rX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
@@ -37,20 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task4SumOfAllEvenNumbers">
-    <configuration name="Task1BinarySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task1BinarySystem" />
-      <module name="tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework1.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task5MinAndMaxSwitchPlaces">
     <configuration name="Task2EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task2EvenNumber" />
       <module name="tasks" />
@@ -90,12 +91,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task4SumOfAllEvenNumbersWithoutArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task4SumOfAllEvenNumbersWithoutArray" />
+      <module name="tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5MinAndMaxSwitchPlaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task5MinAndMaxSwitchPlaces" />
+      <module name="tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task5MinAndMaxSwitchPlaces" />
+        <item itemvalue="Application.Task4SumOfAllEvenNumbersWithoutArray" />
         <item itemvalue="Application.Task4SumOfAllEvenNumbers" />
         <item itemvalue="Application.Task3NumbersFromAToB" />
         <item itemvalue="Application.Task2EvenNumber" />
-        <item itemvalue="Application.Task1BinarySystem" />
       </list>
     </recent_temporary>
   </component>
@@ -111,5 +139,16 @@
       <updated>1621869126184</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
