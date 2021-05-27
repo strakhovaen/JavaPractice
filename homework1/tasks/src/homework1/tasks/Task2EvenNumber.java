@@ -9,7 +9,7 @@ public class Task2EvenNumber {
            System.out.println(num + " is even number");
        }
        else {
-           System.out.println(num +" is odd number");
+           System.out.println(num + " is odd number");
        }
     }
 }

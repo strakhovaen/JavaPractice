@@ -10,10 +10,10 @@ public class Task1BinarySystem {
     String s = "";
 
     while (i > 0) {
-        div = i/2;
-        mod = i%2;
+        div = i / 2;
+        mod = i % 2;
         s = mod + s;
-        i = i/2;
+        i = i / 2;
     }
 
     System.out.println(decimalNumber + " in Binary System: " + s);
