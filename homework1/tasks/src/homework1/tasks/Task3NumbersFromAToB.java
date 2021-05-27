@@ -9,10 +9,14 @@ public class Task3NumbersFromAToB {
         Scanner in = new Scanner(System.in);
         System.out.print("Input number a: ");
         int a = in.nextInt();
+
         System.out.print("Input number b: ");
         int b = in.nextInt();
+
         for (int i = a; i <= b; i++) {
             System.out.print(i + " ");
         }
+
+        in.close();
     }
 }

@@ -7,14 +7,17 @@ import java.util.Scanner;
 public class Task5MinAndMaxSwitchPlaces {
     public static void main(String [] args) {
         int[] array = new int[7];
+        Scanner in = new Scanner(System.in);
         System.out.println("Input numbers for array: ");
         for (int i = 0; i < array.length; i++) {
-            array[i] = new Scanner(System.in).nextInt();
+            array[i] = in.nextInt();;
         }
+
         int min = array[0];
         int minIndex = 0;
         int max = array[0];
         int maxIndex = 0;
+
         for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
@@ -33,5 +36,7 @@ public class Task5MinAndMaxSwitchPlaces {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+
+        in.close();
     }
 }

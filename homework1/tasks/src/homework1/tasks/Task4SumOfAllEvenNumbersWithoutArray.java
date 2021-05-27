@@ -9,9 +9,11 @@ public class Task4SumOfAllEvenNumbersWithoutArray {
     public static void main(String [] args) {
         int sum = 0;
         int i = 0;
+
+        Scanner in = new Scanner(System.in);
         System.out.println("Input numbers: ");
         while (i != -1) {
-            i = new Scanner(System.in).nextInt();
+            i = in.nextInt();
             if (i % 2 == 0) {sum = sum + i;}
         }
 

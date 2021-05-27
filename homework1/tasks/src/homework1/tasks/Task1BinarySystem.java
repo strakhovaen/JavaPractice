@@ -17,5 +17,5 @@ public class Task1BinarySystem {
     }
 
     System.out.println(decimalNumber + " in Binary System: " + s);
-}
+    }
 }
