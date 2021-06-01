@@ -17,5 +17,17 @@ public class ArrayManager {
 
         return array;
     }
+
+    public static void swap(int[] array, int index1, int index2) {
+        int tmp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = tmp;
+    }
+
+    public static void output(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
 }
 

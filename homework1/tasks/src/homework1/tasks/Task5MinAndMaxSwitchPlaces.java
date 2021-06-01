@@ -30,5 +30,6 @@ public class Task5MinAndMaxSwitchPlaces {
             System.out.print(array[i] + " ");
         }
 
+
     }
 }

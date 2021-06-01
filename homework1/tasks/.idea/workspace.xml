@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbce17c-69a1-44e6-8f66-6e0c6f92a2f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task10PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task11DefiniteIntegral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task7BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task8ReversedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task9BubbleSortFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task1BinarySystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task1BinarySystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task2EvenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task2EvenNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/ArrayManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/ArrayManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task1BinarySystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task4SumOfAllEvenNumbersWithoutArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task6InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task6InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task6InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task6InsertionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +38,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1szIjVOP0BfJYHvsiLrtrODq7rX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
@@ -55,48 +57,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task5MinAndMaxSwitchPlaces">
-    <configuration name="Task2EvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task2EvenNumber" />
-      <module name="tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework1.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3NumbersFromAToB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task3NumbersFromAToB" />
-      <module name="tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework1.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4SumOfAllEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task4SumOfAllEvenNumbers" />
-      <module name="tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework1.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task4SumOfAllEvenNumbersWithoutArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task4SumOfAllEvenNumbersWithoutArray" />
+  <component name="RunManager" selected="Application.Task10PrimeNumber">
+    <configuration name="Task10PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task10PrimeNumber" />
       <module name="tasks" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +84,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task6InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task6InsertionSort" />
+      <module name="tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task7BubbleSort" />
+      <module name="tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task8ReversedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task8ReversedArray" />
+      <module name="tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task10PrimeNumber" />
+        <item itemvalue="Application.Task8ReversedArray" />
+        <item itemvalue="Application.Task7BubbleSort" />
+        <item itemvalue="Application.Task6InsertionSort" />
         <item itemvalue="Application.Task5MinAndMaxSwitchPlaces" />
-        <item itemvalue="Application.Task4SumOfAllEvenNumbersWithoutArray" />
-        <item itemvalue="Application.Task4SumOfAllEvenNumbers" />
-        <item itemvalue="Application.Task3NumbersFromAToB" />
-        <item itemvalue="Application.Task2EvenNumber" />
       </list>
     </recent_temporary>
   </component>
