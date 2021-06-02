@@ -13,10 +13,11 @@ public class Task3NumbersFromAToB {
             System.out.print("Input number b: ");
             int b = in.nextInt();
 
+            in.close();
+
             for (int i = a; i <= b; i++) {
                 System.out.print(i + " ");
             }
 
-            in.close();
     }
 }

@@ -1,3 +1,5 @@
+//06. Сортировка массива вставками
+
 package homework1.tasks;
 
 public class Task6InsertionSort {

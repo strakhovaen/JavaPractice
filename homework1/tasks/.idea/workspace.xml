@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbce17c-69a1-44e6-8f66-6e0c6f92a2f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task10PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task11DefiniteIntegral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task7BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task8ReversedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/tasks/Task9BubbleSortFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/ArrayManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/ArrayManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task5MinAndMaxSwitchPlaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task10PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task10PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task3NumbersFromAToB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task6InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task6InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/ArrayManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task5MinAndMaxSwitchPlaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task7BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task7BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task8ReversedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task8ReversedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task9BubbleSortFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tasks/homework1/tasks/Task9BubbleSortFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task10PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task10PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task11DefiniteIntegral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task11DefiniteIntegral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task3NumbersFromAToB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task6InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task6InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task7BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task7BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task8ReversedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task8ReversedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework1/tasks/Task9BubbleSortFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework1/tasks/Task9BubbleSortFunction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task10PrimeNumber">
+  <component name="RunManager" selected="Application.Task11DefiniteIntegral">
     <configuration name="Task10PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task10PrimeNumber" />
       <module name="tasks" />
@@ -71,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5MinAndMaxSwitchPlaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task5MinAndMaxSwitchPlaces" />
+    <configuration name="Task11DefiniteIntegral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.tasks.Task11DefiniteIntegral" />
       <module name="tasks" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task11DefiniteIntegral" />
         <item itemvalue="Application.Task10PrimeNumber" />
         <item itemvalue="Application.Task8ReversedArray" />
         <item itemvalue="Application.Task7BubbleSort" />
         <item itemvalue="Application.Task6InsertionSort" />
-        <item itemvalue="Application.Task5MinAndMaxSwitchPlaces" />
       </list>
     </recent_temporary>
   </component>
