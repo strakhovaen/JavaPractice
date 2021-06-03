@@ -19,6 +19,8 @@ public class Task4SumOfAllEvenNumbersWithoutArray {
                 }
         }
 
+        in.close();
+
         System.out.println("Sum of all even numbers: " + sum);
     }
 }
