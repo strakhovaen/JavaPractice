@@ -1,4 +1,4 @@
-package tests.pacage1;
+package utils;
 
 import java.util.Scanner;
 
@@ -51,14 +51,13 @@ public class ArrayManager {
             j++;
         }
 
-        System.out.print("An element is deleted: ");
-        output(arrayNew);
+        array = arrayNew;
 
-        return arrayNew;
+        return array;
     }
 
 
-    public static void insertMiddle(int[] array, int number) {
+    public static int[] insertMiddle(int[] array, int number) {
         int[] arrayNew = new int[array.length + 1];
         int index = arrayNew.length / 2;
         int j = 0;
@@ -74,21 +73,22 @@ public class ArrayManager {
             j++;
         }
 
-        System.out.print("An element is inserted in the middle: ");
-        output(arrayNew);
+        array = arrayNew;
 
+        return array;
     }
 
 
-    public static void insertEnd(int[] array, int number) {
+    public static int[] insertEnd(int[] array, int number) {
         int[] arrayNew = new int[array.length + 1];
         for (int i = 0; i < array.length; i++) {
             arrayNew[i] = array[i];
         }
         arrayNew[array.length] = number;
-        System.out.print("An element is inserted to the end: ");
-        output(arrayNew);
-        System.out.println();
+
+        array = arrayNew;
+
+        return array;
     }
 
 
@@ -104,9 +104,6 @@ public class ArrayManager {
                 }
             }
         }
-
-        System.out.print("Sorted array (Bubble Sorting): ");
-        output(array);
     }
 
 
@@ -120,9 +117,6 @@ public class ArrayManager {
                 array[j - 1] = tmp;
             }
         }
-
-        System.out.print("Sorted array (Insertion Sorting): ");
-        output(array);
     }
 
 
@@ -130,9 +124,6 @@ public class ArrayManager {
         for (int i = 0; i <= array.length/2; i++) {
             ArrayManager.swap(array,i,array.length-i-1);
         }
-
-        System.out.print("Reversed array: ");
-        output(array);
     }
 
 
@@ -155,9 +146,6 @@ public class ArrayManager {
         }
 
         swap(array, minIndex, maxIndex);
-
-        System.out.print("Min and Max switched array: ");
-        output(array);
     }
 
 }

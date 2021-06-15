@@ -1,5 +1,6 @@
-package tests.pacage1;
+package utils;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class NumberManager {
@@ -8,31 +9,40 @@ public class NumberManager {
     }
 
 
-    public static void toBinary(int decimalNumber) {
+    public static String toBinary(int decimalNumber) {
         int i = decimalNumber;
         int mod;
-        String s = "";
+        String result = "";
+
+        if (i == 0) {result = "0";};
 
         while (i > 0) {
             mod = i % 2;
-            s = mod + s;
+            result = mod + result;
             i = i / 2;
         }
 
-        System.out.println(decimalNumber + " in Binary System: " + s);
+        System.out.println(decimalNumber + " in Binary System: " + result);
+
+        return result;
     }
 
 
-    public static void isEvenNumber(int num) {
+    public static String isEvenNumber(int num) {
+        String result;
         if (num % 2 == 0) {
-            System.out.println(num + " is even number");
+            result = "even number";
         } else {
-            System.out.println(num + " is odd number");
+            result = "odd number";
         }
+
+        System.out.println(num + " is " + result);
+
+        return result;
     }
 
 
-    public static void isPrimeNumber(int number) {
+    public static String isPrimeNumber(int number) {
         boolean check = false;
 
         for (int i = 2; i < number / 2; i++) {
@@ -42,25 +52,38 @@ public class NumberManager {
             }
         }
 
+        String result;
+
         if (!check) {
-            System.out.println(number + " is a prime number");
+            result = "prime number";
         } else {
-            System.out.println(number + " is not a prime number");
+            result = "not prime number";
         }
+
+        System.out.println(number + " is " + result);
+
+        return result;
     }
 
 
-    public static void numbersFromAToB(int a, int b) {
+    public static String numbersFromAToB(int a, int b) {
+        String result = "";
         System.out.print("Numbers from " + a + " to " + b + ": ");
         for (int i = a; i <= b; i++) {
-            System.out.print(i + " ");
+            if (i == b) {
+                result = result + i;
+            } else {
+                result = result + i + " ";
             }
+        }
 
-        System.out.println();
+        System.out.println(result);
+
+        return result;
     }
 
 
-    public static void integral(double a, double b, int n) {
+    public static double integral(double a, double b, int n) {
         double h = (b - a) / n;
         double sum = 0;
 
@@ -68,8 +91,14 @@ public class NumberManager {
             sum += h * Math.sin(1/(a + i*h));
         }
 
-        System.out.printf("Integral from " + a + " to " + b + " with step " + h + ": " + sum);
-        System.out.println();
+        DecimalFormat df = new DecimalFormat("#");
+        df.setMaximumFractionDigits(6);
+        System.out.println(sum);
+        System.out.println(df.format(sum));
+
+        System.out.printf("Integral from " + a + " to " + b + " with step " + df.format(h) + ": " + sum);
+
+        return sum;
     }
 
 
@@ -90,11 +119,7 @@ public class NumberManager {
     }
 
 
-    public static void minAndMaxDifference() {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Input numbers (separated by space, stop with Enter): ");
-        String numbersLine = in.nextLine();
-
+    public static int minAndMaxDifference(String numbersLine) {
         int min, max, numberInt;
         String numberStr;
 
@@ -129,6 +154,8 @@ public class NumberManager {
         int dif = max - min;
 
         System.out.println("Min and Max difference: " + dif);
+
+        return dif;
     }
 
 
