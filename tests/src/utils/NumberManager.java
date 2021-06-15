@@ -93,8 +93,6 @@ public class NumberManager {
 
         DecimalFormat df = new DecimalFormat("#");
         df.setMaximumFractionDigits(6);
-        System.out.println(sum);
-        System.out.println(df.format(sum));
 
         System.out.printf("Integral from " + a + " to " + b + " with step " + df.format(h) + ": " + sum);
 
@@ -102,7 +100,7 @@ public class NumberManager {
     }
 
 
-    public static void SumOfEvenNumbersBeforeMinusOne() { //(String [] args) {
+    public static void sumOfEvenNumbersBeforeMinusOne() { //(String [] args) {
         Scanner in = new Scanner(System.in);
         int sum = 0;
         int i = 0;
@@ -160,11 +158,7 @@ public class NumberManager {
 
 
     //Среди введённых чисел посчитать произведение тех, сумма цифр которых - чётное число, и сумму тех, что оканчиваются на 7
-    public static void sumAndProduct() {
-        System.out.println("Input numbers (separated by space, stop with Enter): ");
-        Scanner in = new Scanner(System.in);
-        String numberString = in.nextLine();
-
+    public static int[] sumAndProduct(String numberString) {
         String number;
         int product = 1;
         int sumOfEndingWith7 = 0;
@@ -204,6 +198,8 @@ public class NumberManager {
         else
             System.out.println("Sum of numbers ended with 7: " + sumOfEndingWith7);
 
+        int[] result = {product,sumOfEndingWith7};
+        return result;
     }
 
 }

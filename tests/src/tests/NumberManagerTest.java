@@ -81,14 +81,14 @@ public class NumberManagerTest {
 
     @Test
     public void integral() {
-        int a = 1;
-        int b = 3;
+        double a = 1;
+        double b = 3;
         int n = 10000;
 
         double result = NumberManager.integral(a,b,n);
 
-      //  float expected = ;
-      //  Assert.assertEquals(actual,expected);
+        double expected = 1.02656;
+        Assert.assertEquals(result,expected,0.001);
     }
 
 
@@ -111,7 +111,17 @@ public class NumberManagerTest {
 
     @Test
     public void sumAndProduct() {
+        String numbersLine = "1 14 7 2 17 9";
+        System.out.println(numbersLine);
 
+        int[] result = NumberManager.sumAndProduct(numbersLine);
+        int product = result[0];
+        int sum = result[1];
 
+        int expectedProduct = 34;
+        Assert.assertEquals(product,expectedProduct);
+
+        int expectedSum = 24;
+        Assert.assertEquals(sum,expectedSum);
     }
 }
