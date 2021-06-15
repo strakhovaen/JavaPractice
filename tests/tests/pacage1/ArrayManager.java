@@ -3,6 +3,10 @@ package tests.pacage1;
 import java.util.Scanner;
 
 public class ArrayManager {
+    public static void main(String[] args) {
+
+    }
+
 
     public static int[] init() {
         Scanner in = new Scanner(System.in);
@@ -35,7 +39,7 @@ public class ArrayManager {
     }
 
 
-    public static int[]delete(int[] array, int index) {
+    public static int[] delete(int[] array, int index) {
         int[] arrayNew = new int[array.length - 1];
         int j = 0;
         int i = 0;

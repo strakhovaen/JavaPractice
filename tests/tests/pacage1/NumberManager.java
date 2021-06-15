@@ -3,6 +3,11 @@ package tests.pacage1;
 import java.util.Scanner;
 
 public class NumberManager {
+    public static void main(String[] args) {
+
+    }
+
+
     public static void toBinary(int decimalNumber) {
         int i = decimalNumber;
         int mod;
