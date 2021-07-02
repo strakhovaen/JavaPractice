@@ -1,4 +1,4 @@
-package main;
+package task2;
 
 public class Person {
     String fullName;
@@ -15,14 +15,17 @@ public class Person {
 
     public void displayInfo() {
         System.out.println("ФИО: " + this.fullName + ", возраст: " + this.age);
+        System.out.println();
     }
 
     public void move() {
         System.out.println(this.fullName + " идёт");
+        System.out.println();
     }
 
     public void talk() {
         System.out.println(this.fullName + " говорит");
+        System.out.println();
     }
 
     public static void main(String[] args) {
