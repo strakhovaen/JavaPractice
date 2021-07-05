@@ -10,13 +10,13 @@ public class NewClass extends ParentClass {
         testNew.publicVar = 0;
         //testNew.privateVar = 1; //нет доступа
         //testNew.defaultVar = 2; //нет доступа
-        testNew.protectedVar = 3; //нет доступа - ПОЧЕМУ??
+        //testNew.protectedVar = 3; //нет доступа - ПОЧЕМУ??
 
 
         testNew.publicMethod();
         //testNew.privateMethod(); //нет доступа
         //testNew.defaultMethod(); //нет доступа
-        testNew.protectedMethod(); //нет доступа - ПОЧЕМУ??
+        //testNew.protectedMethod(); //нет доступа - ПОЧЕМУ??
 
     }
 
