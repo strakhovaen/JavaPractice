@@ -4,9 +4,11 @@ public class Reader {
     String fullName;
     int cardNumber;
     String faculty;
-   // Date birthDate;
     String birthDate;
     String phoneNumber;
+
+    public Reader() {
+    }
 
     public Reader(String fullName, int cardNumber, String faculty, String birthDate, String phoneNumber) {
         this.fullName = fullName;
@@ -16,9 +18,6 @@ public class Reader {
         this.phoneNumber = phoneNumber;
     }
 
-    public Reader() {
-
-    }
 
     public String getFullName() {
         return fullName;

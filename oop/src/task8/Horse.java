@@ -1,10 +1,9 @@
 package task8;
 
 public class Horse extends Animal {
-    String allergy;
+    private String allergy;
 
     public Horse() {
-
     }
 
     public Horse(String food, String location, String allergy) {

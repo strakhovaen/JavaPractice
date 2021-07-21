@@ -5,6 +5,9 @@ public class Phone {
     private String model;
     private int weight;
 
+    public Phone() {
+    }
+
     public Phone(String number, String model) {
         this.number=number;
         this.model=model;
@@ -15,8 +18,6 @@ public class Phone {
         this.weight=weight;
     }
 
-    public Phone() {
-    }
 
     public void setNumber(String number) {
         this.number = number;
@@ -43,13 +44,12 @@ public class Phone {
     }
 
 
-
-    public static void receiveCall (String nameCalling) {
-        System.out.println("Звонит " + nameCalling);
+    public static void receiveCall(String name) {
+        System.out.println("Звонит " + name);
     }
 
-    public static void receiveCall (String nameCalling, String numberCalling) {
-        System.out.println("Звонит " + nameCalling + ". Номер: " + numberCalling);
+    public static void receiveCall(String name, String number) {
+        System.out.println("Звонит " + name + ". Номер: " + number);
         System.out.println();
     }
 
@@ -61,7 +61,8 @@ public class Phone {
         System.out.println();
     }
 
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         Phone phone1 = new Phone ("11111", "Samsung");
         Phone phone2 = new Phone ("22222", "Sony", 300);
         Phone phone3 = new Phone ("33333", "Nokia", 200);
@@ -86,5 +87,4 @@ public class Phone {
         phone2.sendMessage("22222");
 
     }
-
 }

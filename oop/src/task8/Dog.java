@@ -1,16 +1,16 @@
 package task8;
 
 public class Dog extends Animal {
-    String breed;
+    private String breed;
 
     public Dog() {
-
     }
 
     public Dog(String food, String location, String breed) {
         super(food,location);
         this.breed = breed;
     }
+
 
     @Override
     public String getLocation() {

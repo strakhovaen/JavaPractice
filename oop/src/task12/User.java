@@ -1,8 +1,12 @@
 package task12;
 
+import java.util.Scanner;
+
 public class User {
-    private String login, password;
+    private String login;
+    private String password;
     private Basket basket;
+    private double money;
 
     public User() {
     }
@@ -12,10 +16,12 @@ public class User {
         this.password = password;
     }
 
-    public User(String login, String password, Basket basket) {
+
+    public User(String login, String password, Basket basket, double money) {
         this.login = login;
         this.password = password;
         this.basket = basket;
+        this.money = money;
     }
 
     public String getLogin() {
@@ -30,6 +36,10 @@ public class User {
         return basket;
     }
 
+    public double getMoney() {
+        return money;
+    }
+
     public void setLogin(String login) {
         this.login = login;
     }
@@ -42,8 +52,26 @@ public class User {
         this.basket = basket;
     }
 
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
     public String getInfo() {
+        //if
         return "Login: " + getLogin() + '\n' +
                 "Products in the basket:" + '\n' + basket.getInfo() + '\n';
     }
+
+    public void addMoney() {
+        System.out.println("Insert the sum you want to add: ");
+        Scanner scanner = new Scanner(System.in);
+        double sum = scanner.nextDouble();
+        money = money + sum;
+        /*
+            public double addMoney(double sum) {
+        double newSum = money + sum;
+        return newSum;
+         */
+    }
+
 }

@@ -5,7 +5,6 @@ public class Animal {
     private String location;
 
     public Animal() {
-
     }
 
     public Animal(String food, String location) {
@@ -31,7 +30,7 @@ public class Animal {
 
     public String getInfo() {
         return "Корм: " + getFood() + '\n' +
-                "Место проживания: " + '\n';
+                "Место проживания: " + getLocation() + '\n';
     }
 
     public void makeNoise() {
@@ -43,7 +42,7 @@ public class Animal {
     }
 
     public void sleep() {
-        System.out.println("Такое-то животное спит");
+        System.out.println("Животное спит");
     }
 
 
@@ -61,7 +60,5 @@ public class Animal {
             pet.makeNoise();
             System.out.println();
         }
-
     }
-
 }

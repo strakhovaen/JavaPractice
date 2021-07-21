@@ -8,7 +8,6 @@ public class Matrix {
     int columns;
 
     public Matrix() {
-
     }
 
     public Matrix(int[][] matrix, int rows, int columns) {
@@ -66,6 +65,7 @@ public class Matrix {
         return array1;
     }
 
+
     public static void main(String[] args) {
         Matrix matrix1 = new Matrix();
         matrix1.rows = 2;
@@ -86,5 +86,4 @@ public class Matrix {
         matrix2.outputMatrix();
         matrix3.outputMatrix();
     }
-
 }

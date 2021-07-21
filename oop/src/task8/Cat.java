@@ -1,16 +1,16 @@
 package task8;
 
 public class Cat extends Animal {
-    double weight;
+    private double weight;
 
     public Cat() {
-
     }
 
     public Cat(String food, String location, double weight) {
         super(food,location);
         this.weight = weight;
     }
+
 
     @Override
     public String getFood() {
@@ -46,6 +46,7 @@ public class Cat extends Animal {
                 "Вес: " + this.getWeight() + '\n';
     }
 
+
     public void makeNoise() {
         System.out.println("Мяу!");
     }
@@ -57,5 +58,4 @@ public class Cat extends Animal {
     public void sleep() {
         System.out.println("Кот спит");
     }
-
 }

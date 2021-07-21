@@ -4,10 +4,7 @@ public class Aspirant extends Student {
     String scienceWork;
 
     public Aspirant (String firstName, String lastName, String group, double averageMark, String scienceWork) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.group = group;
-        this.averageMark = averageMark;
+        super(firstName, lastName, group, averageMark);
         this.scienceWork = scienceWork;
     }
 

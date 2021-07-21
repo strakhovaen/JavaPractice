@@ -4,7 +4,6 @@ public class Vet  {
     private String fio;
 
     public Vet() {
-
     }
 
     public Vet(String fio) {
@@ -23,5 +22,4 @@ public class Vet  {
         System.out.println("Врач: " + getFio());
         System.out.println("Информация о животном: " + '\n' + animal.getInfo());
     }
-
 }

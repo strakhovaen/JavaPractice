@@ -1,28 +1,32 @@
 package task12;
 
 public class ShoppingDemo {
+
     public static void main(String[] args) {
-        Product product1 = new Product("red dress",1000,5);
-        Product product2 = new Product("white socks",300,4.5);
+        // System.out.println(ProductService.getInfo());
+        //System.out.println(ProductService.getProducts()[0].getName());
+        //System.out.println("Here should be product information");
 
-        Product product3 = new Product("шоколад Twix",35,4.7);
-        Product product4 = new Product("сыр Моцарелла",300,4.6);
-        Product product5 = new Product("кофе Nescafe",250,4.8);
+        //System.out.println(range.getInfo());
 
-        Product[] products1 = {product1,product2};
-        Category category1 = new Category("clothes",products1);
+//        Terminal terminal = new Terminal();
+        //User zero = new User();
+        //zero.setLogin("0"); zero.setPassword("0");
+        //Terminal.setUser(zero);
+        Terminal.menu();
+        //terminal.setCurrentUser(terminal.authorization(users));
+      //  terminal.setCurrentUser(user1);
 
-        Product[] products2 = {product3,product4,product5};
-        Category category2 = new Category("food",products2);
+     //   System.out.println(terminal.getInfo());
+        System.out.println("you are here");
 
-        Basket basket1 = new Basket();
 
-        User user1 = new User("stella13","password000", basket1);
-        System.out.println(user1.getInfo());
+        //authorization();
+        //System.exit(0);
 
-        Product[] basket0 = {product1,product2,product5};
-        basket1.setPurchase(basket0);
-        System.out.println(user1.getInfo());
 
     }
 }
+
+//программа будет закрываться если пользователь например будет вводить команду какую-то (типо закрытия сайта)
+// или же когда введет 3 раза неправильно пароль и логин)

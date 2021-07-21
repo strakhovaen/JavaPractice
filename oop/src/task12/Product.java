@@ -1,6 +1,7 @@
 package task12;
 
 public class Product {
+    private int productNumber;
     private String name;
     private int price;
     private double rating;
@@ -8,10 +9,15 @@ public class Product {
     public Product() {
     }
 
-    public Product(String name, int price, double rating) {
+    public Product(int productNumber, String name, int price, double rating) {
+        this.productNumber = productNumber;
         this.name = name;
         this.price = price;
         this.rating = rating;
+    }
+
+    public int getProductNumber() {
+        return productNumber;
     }
 
     public String getName() {
@@ -26,6 +32,10 @@ public class Product {
         return rating;
     }
 
+    public void setProductNumber(int productNumber) {
+        this.productNumber = productNumber;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -38,12 +48,8 @@ public class Product {
         this.rating = rating;
     }
 
-    public static void main(String[] args) {
-        Product product1 = new Product("red dress", 1000, 5);
-        Product product2 = new Product("white socks", 300, 4.5);
-    }
 
     public String getInfo() {
-        return "Название товара: " + getName() + ". Цена: " + getPrice() + " р. Рейтинг: " + getRating() + '\n';
+        return "Номер: " + productNumber + ". Название товара: " + getName() + ". Цена: " + getPrice() + " р. Рейтинг: " + getRating() + '\n';
     }
 }
