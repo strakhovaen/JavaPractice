@@ -47,7 +47,7 @@ public class Basket {
         }
 
         if (product.getPrice() > sumLeft) {
-            System.out.println("You don't have enough money. Add " + (product.getPrice() - sumLeft) + "$ or choose another product: ");
+            System.out.println("You don't have enough money. Add " + (product.getPrice() - sumLeft) + "$ or choose something else from the list of products: ");
             Terminal.getProductService().cheaperProducts(product);
         } else {
             Product[] arrayNew = new Product[array.length + 1];

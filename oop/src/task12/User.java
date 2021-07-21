@@ -67,11 +67,7 @@ public class User {
         Scanner scanner = new Scanner(System.in);
         double sum = scanner.nextDouble();
         money = money + sum;
-        /*
-            public double addMoney(double sum) {
-        double newSum = money + sum;
-        return newSum;
-         */
+        System.out.println("Done!" + '\n' + "Money available: " + money);
     }
 
 }

@@ -87,14 +87,8 @@ public class Terminal {
 
             switch (command) {
                 case 1 :
-                   if (user.getLogin() == null) {
-                        //user = userService.authorization();
-                       System.out.println("User's info:");
-                       user = userService.getUsers()[1];
-                    }
-                   //
+                   if (user.getLogin() == null) setUser(userService.authorization());
                     System.out.println(user.getInfo());
-
                     basketMenu();
                     break;
                 case 2 :
@@ -130,44 +124,42 @@ public class Terminal {
             command = scanner.nextInt();
             switch (command) {
                 case 1:
+                    System.out.println("Products in my basket:");
+                    System.out.println(user.getBasket().getInfo());
+                    System.out.println("Enter any symbol to continue...");
                     int next1 = 0;
-                        System.out.println("Products in my basket:");
-                        System.out.println(user.getBasket().getInfo());
-                        System.out.println("Enter any symbol to continue...");
-                        next1 = (int) scanner.next().charAt(0);
+                    next1 = (int) scanner.next().charAt(0);
                     if (next1 != 0) break;
                     break;
                 case 2:
-                    int next2 =0;
                     System.out.println("Money available: " + user.getMoney() + " р");
                     System.out.println("Enter any symbol to continue...");
+                    int next2 = 0;
                     next2 = (int) scanner.next().charAt(0);
                     if (next2 != 0) break;
                     break;
                 case 3 :
-                    //delete product
-                    int next3 = 0;
                     System.out.println("Input number of product you want to delete:");
                     int delNumber = scanner.nextInt();
                     user.getBasket().setBasket(user.getBasket().deletePurchase(delNumber));
                     System.out.println("Enter any symbol to continue...");
+                    int next3 = 0;
                     next3 = (int) scanner.next().charAt(0);
                     if (next3 != 0) break;
                     break;
                 case 4:
-                    //add product
-                    int next4 = 0;
                     System.out.println("Input number of product you want to add:");
                     int addNumber = scanner.nextInt();
                     user.getBasket().setBasket(user.getBasket().addPurchase(addNumber));
                     System.out.println("Enter any symbol to continue...");
+                    int next4 = 0;
                     next4  = (int) scanner.next().charAt(0);
                     if (next4 != 0) break;
                     break;
                 case 5 :
                     user.addMoney();
-                    int next5 = 0;
                     System.out.println("Enter any symbol to continue...");
+                    int next5 = 0;
                     next5 = (int) scanner.next().charAt(0);
                     if (next5 != 0) break;
                 case 6 :

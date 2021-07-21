@@ -30,13 +30,9 @@ public class UserService {
         User currentUser = new User();
         User[] usersArray = users;
 
-        /*for (User u : users) {
-            System.out.println(u.getInfo());
-        };*/
-
         for (int i = 0; i < 3; i++) {
-            System.out.println(check);
             if (check) break;
+            if (i > 0) System.out.println("Wrong login and password. Try one more time.");
             System.out.print("Input username:");
             String login = scanner.nextLine();
             System.out.print("Input password:");
@@ -44,19 +40,8 @@ public class UserService {
             System.out.println();
 
             for (User user : usersArray) {
-
-                System.out.println("get info");
-                System.out.print(user.getInfo());
-                System.out.println("user login:" + user.getLogin());
-                System.out.println("login:" + login);
-                System.out.println();
-
-                System.out.println("equals = " + login.equals(user.getLogin()));
-                if //(login == user.getLogin())
-                (login.equals(user.getLogin())) {
-                    System.out.println("this user login");
-                    if (password == user.getPassword()) {
-                        System.out.println("this user password");
+                if (login.equals(user.getLogin())) {
+                    if (password.equals(user.getPassword())) {
                         currentUser = user;
                         check = true;
                         break;
@@ -64,8 +49,10 @@ public class UserService {
                 }
             }
         }
-        System.out.println("You've mistaken 3 times");
-        if (!check) System.exit(0);
+        if (!check) {
+            System.out.println("You've mistaken 3 times");
+            System.exit(0);
+        }
         return currentUser;
     }
 }
