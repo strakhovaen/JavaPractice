@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class UserService {
     private User[] users;
 
-
     public User[] getUsers() {
         return users;
     }

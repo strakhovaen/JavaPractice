@@ -48,7 +48,6 @@ public class Product {
         this.rating = rating;
     }
 
-
     public String getInfo() {
         return "Номер: " + productNumber + ". Название товара: " + getName() + ". Цена: " + getPrice() + " р. Рейтинг: " + getRating() + '\n';
     }

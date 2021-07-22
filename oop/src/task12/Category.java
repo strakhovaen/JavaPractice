@@ -27,5 +27,4 @@ public class Category {
     public void setProducts(Product[] products) {
         this.products = products;
     }
-
 }

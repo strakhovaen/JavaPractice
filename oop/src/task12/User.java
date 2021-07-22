@@ -16,7 +16,6 @@ public class User {
         this.password = password;
     }
 
-
     public User(String login, String password, Basket basket, double money) {
         this.login = login;
         this.password = password;
@@ -68,5 +67,4 @@ public class User {
         money = money + sum;
         System.out.println("Done!" + '\n' + "Money available: " + money);
     }
-
 }
