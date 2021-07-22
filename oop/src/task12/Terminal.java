@@ -44,7 +44,6 @@ public class Terminal {
         User[] users = {user0, user1, user2, user3};
         userService.setUsers(users);
 
-     //   System.out.println(userService.getUsers()[0].getInfo());
     }
 
 
@@ -120,7 +119,6 @@ public class Terminal {
                         "6. back to main menu" + '\n' +
                         "7. exit" + '\n');
 
-
             command = scanner.nextInt();
             switch (command) {
                 case 1:
@@ -173,7 +171,3 @@ public class Terminal {
     }
 
 }
-
-//    ты можешь создать класс терминал который будет работать с консолью и командами и проверять пользователя
-
-//    через switch case будет проще всего реализовать меню выбора

@@ -57,7 +57,6 @@ public class User {
     }
 
     public String getInfo() {
-        //if
         return "Login: " + getLogin() + '\n' +
                 "Products in the basket:" + '\n' + basket.getInfo() + '\n';
     }

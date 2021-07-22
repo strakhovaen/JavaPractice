@@ -19,7 +19,6 @@ public class Basket {
     }
 
     public String getInfo() {
-
         String S = "";
         if (basket != null) {
             for (Product good : basket) {
